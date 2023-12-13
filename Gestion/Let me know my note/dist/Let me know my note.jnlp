@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Let me know my note.jnlp">
+  <information>
+    <title>Let me know my note</title>
+    <vendor>Yahia Benotmane</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\AbsoluteLayout.jar" size="10658" download="eager" />
+    <jar href="lib\mysql-connector-java-8.0.30.jar" size="2513563" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="let.me.know.my.note.LetMeKnowMyNote"  name="Let me know my note" />
+  <update check="always"/>
+</jnlp>
